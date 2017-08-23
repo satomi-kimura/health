@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F2073" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="UuY-r5-ySg">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="shirokuma.ttf">
+            <string>shirokuma</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--church-->
+        <scene sceneID="gzc-Sc-QhZ">
+            <objects>
+                <viewController id="d49-kv-EFB" customClass="ViewController2" customModule="tabbar" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="raZ-JM-RjL"/>
+                        <viewControllerLayoutGuide type="bottom" id="g8D-HU-phd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ZgV-Wk-rwF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tommorow land" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uPP-pj-9eQ">
+                                <rect key="frame" x="43" y="196" width="289" height="114"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="shirokuma" family="shirokuma" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="church" image="church-icon-.png" id="gip-5b-Iah"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uCm-sK-mc5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="380" y="-405"/>
+        </scene>
+        <!--Time line-->
+        <scene sceneID="BnU-O9-ZH3">
+            <objects>
+                <viewController id="MwJ-Ot-NbD" customClass="ViewController" customModule="tabbar" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TjG-Lv-fdd"/>
+                        <viewControllerLayoutGuide type="bottom" id="8cm-t9-3R0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nEz-yk-f7r">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Shirokuma laber" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oY6-vY-y0E">
+                                <rect key="frame" x="43" y="120" width="289" height="114"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="shirokuma" family="shirokuma" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Time line" id="UBz-l8-5Gd">
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="4ay-k9-QSY">
+                            <connections>
+                                <segue destination="p8Q-gX-PJr" kind="show" id="BKu-ur-yvX"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Omi-5V-A0g" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1319.2" y="-1061.0194902548726"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="znf-ob-67f">
+            <objects>
+                <viewController id="p8Q-gX-PJr" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tYd-jz-Fv2"/>
+                        <viewControllerLayoutGuide type="bottom" id="rV9-Fv-MSf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3ix-jk-GMh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Navigation Controller" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ULQ-6q-vOX">
+                                <rect key="frame" x="59" y="271" width="257" height="113"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="shirokuma" family="shirokuma" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JZ2-v7-iPo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2192.8000000000002" y="-1066.4167916041979"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="e2Q-07-dOF">
+            <objects>
+                <tabBarController id="UuY-r5-ySg" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="dFd-6f-h3h">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="4WL-5M-Ksc" kind="relationship" relationship="viewControllers" id="Prh-2s-q6h"/>
+                        <segue destination="d49-kv-EFB" kind="relationship" relationship="viewControllers" id="xfy-al-5iX"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0jV-qH-RRs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-571" y="-732"/>
+        </scene>
+        <!--House-->
+        <scene sceneID="d1G-Ug-uHy">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4WL-5M-Ksc" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="House" image="home-icon-.png" id="Pts-FN-Tet"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="VmC-OG-iH7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="MwJ-Ot-NbD" kind="relationship" relationship="rootViewController" id="HgJ-53-UTB"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3N7-vO-JsO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="380" y="-1061.0194902548726"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="church-icon-.png" width="24" height="24"/>
+        <image name="home-icon-.png" width="32" height="32"/>
+    </resources>
+</document>
