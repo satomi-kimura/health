@@ -13,7 +13,6 @@
 		ABBB975B1F413698007455B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABBB97591F413698007455B1 /* Main.storyboard */; };
 		ABBB975D1F413698007455B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABBB975C1F413698007455B1 /* Assets.xcassets */; };
 		ABBB97601F413698007455B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABBB975E1F413698007455B1 /* LaunchScreen.storyboard */; };
-		ABC7DCCE1F4BFD3500799598 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABC7DCCD1F4BFD3500799598 /* View.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +26,6 @@
 		ABBB975C1F413698007455B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABBB975F1F413698007455B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABBB97611F413698007455B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ABC7DCCD1F4BFD3500799598 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +84,6 @@
 				ABBB975C1F413698007455B1 /* Assets.xcassets */,
 				ABBB975E1F413698007455B1 /* LaunchScreen.storyboard */,
 				ABBB97611F413698007455B1 /* Info.plist */,
-				ABC7DCCD1F4BFD3500799598 /* View.xib */,
 			);
 			path = health;
 			sourceTree = "<group>";
@@ -153,7 +150,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABC7DCCE1F4BFD3500799598 /* View.xib in Resources */,
 				ABBB97601F413698007455B1 /* LaunchScreen.storyboard in Resources */,
 				ABBB975D1F413698007455B1 /* Assets.xcassets in Resources */,
 				ABBB975B1F413698007455B1 /* Main.storyboard in Resources */,
